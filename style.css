@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Ubuntu;
+}
+#container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: 400px;
+}
+.sidebar {
+  background-color: #115e59;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+.main {
+  background-color: white;
+  height: 100%;
+}
+#dash {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 12px;
+  color: white;
+  font-size: 14px;
+}
+.sidebar svg {
+  fill: white;
+}
+#text {
+  margin-left: 5px;
+}
+.elements {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 9px;
+  margin-left: 17px;
+  margin-top: 7px;
+}
+.elementText {
+  margin-left: 9px;
+}
+#space {
+  margin-top: 20px;
+}
+.main {
+  display: grid;
+  grid-template-rows: 20fr 80fr;
+}
+.main svg {
+  fill: black;
+}
+.notification {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 7px;
+}
+#top {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 2px rgba(123, 123, 123, 0.614);
+  z-index: 1;
+  display: grid;
+  grid-template-rows: 50fr 50fr;
+}
+#upper {
+  display: flex;
+}
+
+.search {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+#searchbar {
+  border: none;
+  background-color: #9fd4d0;
+  border-radius: 50px;
+  width: 260px;
+  height: 15px;
+  margin-right: 25px;
+  margin-left: 5px;
+  font-size: 10px;
+  padding-left: 10px;
+}
+#searchbar:focus {
+  outline: none;
+  background-color: #d8f3f1;
+  color: #115e59;
+}
+#name {
+  font-size: 10px;
+  margin-top: 3px;
+}
+#image {
+  margin-left: 10px;
+  margin-right: 7px;
+}
+#image2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+#lower {
+  display: flex;
+}
+#text {
+  margin: 5px;
+
+  font-size: 10px;
+}
+#text1 {
+  font-size: 7px;
+  font-weight: 600;
+}
+.buttons {
+  background-color: #058359;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 6px;
+  height: 20px;
+  width: 42px;
+  margin-top: 7px;
+}
+#buttons {
+  margin-left: 120px;
+}
+#bottom {
+  background-color: #d8f3f1;
+  display: grid;
+  grid-template-columns: 70fr 30fr;
+}
+
+#projecttext {
+  margin-top: 7px;
+  margin-left: 12px;
+  margin-bottom: 7px;
+  font-size: 12px;
+}
+#projects {
+  display: grid;
+  grid-template-columns: 35fr 35fr;
+  grid-template-rows: 30fr 30fr 30fr;
+  gap: 5px;
+  padding-left: 10px;
+  padding-right: 6px;
+}
+.projects {
+  background-color: white;
+  border-left: #115e59 solid 5px;
+  border-radius: 5px;
+  height: 90px;
+  box-shadow: 0px 0px 2px rgb(150, 149, 149);
+}
+.ptext1 {
+  font-size: 9px;
+  font-weight: 80px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.ptext2 {
+  font-size: 7px;
+  font-weight: 1px;
+  color: rgba(59, 55, 55, 0.893);
+  margin-top: 5px;
+  margin-left: 5px;
+  text-wrap: wrap;
+}
+.psvg {
+  width: 50px;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+#right {
+  display: grid;
+  grid-template-rows: 40fr 50fr;
+  gap: 10px;
+}
+.rtext {
+  margin-top: 9px;
+  margin-bottom: 7px;
+  margin-left: 2px;
+  font-size: 10px;
+  font-weight: 500;
+}
+#data {
+  background-color: rgb(250, 250, 250);
+  border-radius: 5px;
+  height: 140px;
+  width: 97%;
+  box-shadow: 0px 0px 2px rgb(150, 149, 149);
+}
+.part {
+  height: 40px;
+  width: 100%;
+}
+.announheading {
+  font-size: 7px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+.annountext {
+  font-size: 5px;
+  text-wrap: wrap;
+  padding-left: 10px;
+}
+hr {
+  border: none;
+  height: 1px;
+  width: 90px;
+  margin-left: 17px;
+  background-color: rgba(0, 0, 0, 0.347);
+}
+#data2 {
+  background-color: rgb(250, 250, 250);
+  border-radius: 5px;
+  height: 105px;
+  width: 97%;
+  box-shadow: 0px 0px 2px rgb(150, 149, 149);
+}
+.trendbox {
+  display: flex;
+  padding: 3px;
+  margin-left: 7px;
+}
+.mail {
+  font-size: 6px;
+  font-weight: 400;
+}
+.pnames {
+  font-size: 5px;
+}
+.trendtext {
+  margin-left: 4px;
+}

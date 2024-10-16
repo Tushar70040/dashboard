@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="container">
+        <div class="sidebar">
+            <div id="dash">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23px" viewBox="0 0 24 24">
+                    <path
+                        d="M19,5V7H15V5H19M9,5V11H5V5H9M19,13V19H15V13H19M9,17V19H5V17H9M21,3H13V9H21V3M11,3H3V13H11V3M21,11H13V21H21V11M11,15H3V21H11V15Z" />
+                </svg>
+                <div id="text">Dashboard</div>
+            </div>
+            <div class="elements">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13px" viewBox="0 0 24 24">
+                    <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
+                </svg>
+                <div class="elementText">Home</div>
+            </div>
+            <div class="elements">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="13px" fill="#e8eaed">
+                    <path
+                        d="M480-480q81 0 169-16.5T800-540v400q-60 27-146 43.5T480-80q-88 0-174-16.5T160-140v-400q63 27 151 43.5T480-480Zm240 280v-230q-50 14-115.5 22T480-400q-59 0-124.5-8T240-430v230q50 18 115 29t125 11q60 0 125-11t115-29ZM480-880q66 0 113 47t47 113q0 66-47 113t-113 47q-66 0-113-47t-47-113q0-66 47-113t113-47Zm0 240q33 0 56.5-23.5T560-720q0-33-23.5-56.5T480-800q-33 0-56.5 23.5T400-720q0 33 23.5 56.5T480-640Zm0-80Zm0 425Z" />
+                </svg>
+                <div class="elementText">Profile</div>
+            </div>
+            <div class="elements">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="13px" fill="#e8eaed">
+                    <path
+                        d="M880-80 720-240H320q-33 0-56.5-23.5T240-320v-40h440q33 0 56.5-23.5T760-440v-280h40q33 0 56.5 23.5T880-640v560ZM160-473l47-47h393v-280H160v327ZM80-280v-520q0-33 23.5-56.5T160-880h440q33 0 56.5 23.5T680-800v280q0 33-23.5 56.5T600-440H240L80-280Zm80-240v-280 280Z" />
+                </svg>
+                <div class="elementText">Messages</div>
+            </div>
+            <div class="elements">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="13px" fill="#e8eaed">
+                    <path
+                        d="M480-60q-72-68-165-104t-195-36v-440q101 0 194 36.5T480-498q73-69 166-105.5T840-640v440q-103 0-195.5 36T480-60Zm0-104q63-47 134-75t146-37v-276q-73 13-143.5 52.5T480-394q-66-66-136.5-105.5T200-552v276q75 9 146 37t134 75Zm0-436q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm0-80q33 0 56.5-23.5T560-760q0-33-23.5-56.5T480-840q-33 0-56.5 23.5T400-760q0 33 23.5 56.5T480-680Zm0-80Zm0 366Z" />
+                </svg>
+                <div class="elementText">History</div>
+            </div>
+            <div class="elements">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="13px" fill="#e8eaed">
+                    <path
+                        d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q65 0 123 19t107 53l-58 59q-38-24-81-37.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160q133 0 226.5-93.5T800-480q0-18-2-36t-6-35l65-65q11 32 17 66t6 70q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-56-216L254-466l56-56 114 114 400-401 56 56-456 457Z" />
+                </svg>
+                <div class="elementText">Tasks</div>
+            </div>
+
+            <div class="elements">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="13px" fill="#e8eaed">
+                    <path
+                        d="M0-240v-63q0-43 44-70t116-27q13 0 25 .5t23 2.5q-14 21-21 44t-7 48v65H0Zm240 0v-65q0-32 17.5-58.5T307-410q32-20 76.5-30t96.5-10q53 0 97.5 10t76.5 30q32 20 49 46.5t17 58.5v65H240Zm540 0v-65q0-26-6.5-49T754-397q11-2 22.5-2.5t23.5-.5q72 0 116 26.5t44 70.5v63H780Zm-455-80h311q-10-20-55.5-35T480-370q-55 0-100.5 15T325-320ZM160-440q-33 0-56.5-23.5T80-520q0-34 23.5-57t56.5-23q34 0 57 23t23 57q0 33-23 56.5T160-440Zm640 0q-33 0-56.5-23.5T720-520q0-34 23.5-57t56.5-23q34 0 57 23t23 57q0 33-23 56.5T800-440Zm-320-40q-50 0-85-35t-35-85q0-51 35-85.5t85-34.5q51 0 85.5 34.5T600-600q0 50-34.5 85T480-480Zm0-80q17 0 28.5-11.5T520-600q0-17-11.5-28.5T480-640q-17 0-28.5 11.5T440-600q0 17 11.5 28.5T480-560Zm1 240Zm-1-280Z" />
+                </svg>
+                <div class="elementText">Communities</div>
+            </div>
+            <div class="elements" id="space">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="13px" fill="#e8eaed">
+                    <path
+                        d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm70-80h79l14-106q31-8 57.5-23.5T639-327l99 41 39-68-86-65q5-14 7-29.5t2-31.5q0-16-2-31.5t-7-29.5l86-65-39-68-99 42q-22-23-48.5-38.5T533-694l-13-106h-79l-14 106q-31 8-57.5 23.5T321-633l-99-41-39 68 86 64q-5 15-7 30t-2 32q0 16 2 31t7 30l-86 65 39 68 99-42q22 23 48.5 38.5T427-266l13 106Zm42-180q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Zm-2-140Z" />
+                </svg>
+                <div class="elementText">Settings</div>
+            </div>
+            <div class="elements">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="13px" fill="#e8eaed">
+                    <path
+                        d="M440-120v-60h340v-304q0-123.69-87.32-209.84Q605.36-780 480-780q-125.36 0-212.68 86.16Q180-607.69 180-484v244h-20q-33 0-56.5-23.5T80-320v-80q0-21 10.5-39.5T120-469l3-53q8-68 39.5-126t79-101q47.5-43 109-67T480-840q68 0 129 24t109 66.5Q766-707 797-649t40 126l3 52q19 9 29.5 27t10.5 38v92q0 20-10.5 38T840-249v69q0 24.75-17.62 42.37Q804.75-120 780-120H440Zm-80.18-290q-12.82 0-21.32-8.68-8.5-8.67-8.5-21.5 0-12.82 8.68-21.32 8.67-8.5 21.5-8.5 12.82 0 21.32 8.68 8.5 8.67 8.5 21.5 0 12.82-8.68 21.32-8.67 8.5-21.5 8.5Zm240 0q-12.82 0-21.32-8.68-8.5-8.67-8.5-21.5 0-12.82 8.68-21.32 8.67-8.5 21.5-8.5 12.82 0 21.32 8.68 8.5 8.67 8.5 21.5 0 12.82-8.68 21.32-8.67 8.5-21.5 8.5ZM241-462q-7-106 64-182t177-76q87 0 151 57.5T711-519q-89-1-162.5-50T434.72-698Q419-618 367.5-555.5T241-462Z" />
+                </svg>
+                <div class="elementText">Supports</div>
+            </div>
+            <div class="elements">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="13px" fill="#e8eaed">
+                    <path
+                        d="M480-80q-140-35-230-162.5T160-522v-238l320-120 320 120v238q0 152-90 279.5T480-80Zm0-62q106-35 175.5-128.5T737-480H480v-335l-260 97v196q0 12 .5 20.5T223-480h257v338Z" />
+                </svg>
+                <div class="elementText">Privacy</div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div id="top">
+                <div id="upper">
+                    <div class="search">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px" fill="#e8eaed">
+                            <path
+                                d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                        </svg>
+                        <input type="search" id="searchbar">
+                    </div>
+                    <div class="notification">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px" height="20px"
+                            fill="#e8eaed">
+                            <path
+                                d="M80-560q0-100 44.5-183.5T244-882l47 64q-60 44-95.5 111T160-560H80Zm720 0q0-80-35.5-147T669-818l47-64q75 55 119.5 138.5T880-560h-80ZM160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z" />
+                        </svg>
+                        <div id="image">
+                            <img src="https://avatar.iran.liara.run/public/boy?username=Ash" width="20px">
+                        </div>
+                        <div id="name">Tushar Kumar</div>
+                    </div>
+                </div>
+                <div id="lower">
+                    <img src="https://avatar.iran.liara.run/public/boy?username=Ash" width="30px" height="30px"
+                        id="image2">
+                    <div id="text">
+                        <div id="text1">Hi there,</div>
+                        <div id="text2">Tushar Kumar(@tushar70040)</div>
+                    </div>
+
+                    <div id="buttons">
+                        <button class="buttons">New</button>
+                        <button class="buttons">Upload</button>
+                        <button class="buttons">Share</button>
+                    </div>
+
+                </div>
+            </div>
+            <div id="bottom">
+                <div id="left">
+                    <div id="projecttext">Your Projects</div>
+                    <div id="projects">
+                        <div class="projects">
+                            <div class="ptext1">Landing Page</div>
+                            <div class="ptext2"> Create a web-based platform that allows users to design and customize
+                                their own virtual pets. Features include feeding, playing, and training the pets.</div>
+                            <div class="psvg">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="M680-80q-50 0-85-35t-35-85q0-6 3-28L282-392q-16 15-37 23.5t-45 8.5q-50 0-85-35t-35-85q0-50 35-85t85-35q24 0 45 8.5t37 23.5l281-164q-2-7-2.5-13.5T560-760q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35q-24 0-45-8.5T598-672L317-508q2 7 2.5 13.5t.5 14.5q0 8-.5 14.5T317-452l281 164q16-15 37-23.5t45-8.5q50 0 85 35t35 85q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T720-200q0-17-11.5-28.5T680-240q-17 0-28.5 11.5T640-200q0 17 11.5 28.5T680-160ZM200-440q17 0 28.5-11.5T240-480q0-17-11.5-28.5T200-520q-17 0-28.5 11.5T160-480q0 17 11.5 28.5T200-440Zm480-280q17 0 28.5-11.5T720-760q0-17-11.5-28.5T680-800q-17 0-28.5 11.5T640-760q0 17 11.5 28.5T680-720Zm0 520ZM200-480Zm480-280Z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="projects">
+                            <div class="ptext1">Etch-a-Sketch</div>
+                            <div class="ptext2"> Create a web-based platform that allows users to design and customize
+                                their own virtual pets. Features include feeding, playing, and training the pets.</div>
+                            <div class="psvg">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="M680-80q-50 0-85-35t-35-85q0-6 3-28L282-392q-16 15-37 23.5t-45 8.5q-50 0-85-35t-35-85q0-50 35-85t85-35q24 0 45 8.5t37 23.5l281-164q-2-7-2.5-13.5T560-760q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35q-24 0-45-8.5T598-672L317-508q2 7 2.5 13.5t.5 14.5q0 8-.5 14.5T317-452l281 164q16-15 37-23.5t45-8.5q50 0 85 35t35 85q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T720-200q0-17-11.5-28.5T680-240q-17 0-28.5 11.5T640-200q0 17 11.5 28.5T680-160ZM200-440q17 0 28.5-11.5T240-480q0-17-11.5-28.5T200-520q-17 0-28.5 11.5T160-480q0 17 11.5 28.5T200-440Zm480-280q17 0 28.5-11.5T720-760q0-17-11.5-28.5T680-800q-17 0-28.5 11.5T640-760q0 17 11.5 28.5T680-720Zm0 520ZM200-480Zm480-280Z" />
+                                </svg>
+
+                            </div>
+                        </div>
+                        <div class="projects">
+                            <div class="ptext1">Tic Tac Toe</div>
+                            <div class="ptext2"> Create a web-based platform that allows users to design and customize
+                                their own virtual pets. Features include feeding, playing, and training the pets.</div>
+                            <div class="psvg">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="M680-80q-50 0-85-35t-35-85q0-6 3-28L282-392q-16 15-37 23.5t-45 8.5q-50 0-85-35t-35-85q0-50 35-85t85-35q24 0 45 8.5t37 23.5l281-164q-2-7-2.5-13.5T560-760q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35q-24 0-45-8.5T598-672L317-508q2 7 2.5 13.5t.5 14.5q0 8-.5 14.5T317-452l281 164q16-15 37-23.5t45-8.5q50 0 85 35t35 85q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T720-200q0-17-11.5-28.5T680-240q-17 0-28.5 11.5T640-200q0 17 11.5 28.5T680-160ZM200-440q17 0 28.5-11.5T240-480q0-17-11.5-28.5T200-520q-17 0-28.5 11.5T160-480q0 17 11.5 28.5T200-440Zm480-280q17 0 28.5-11.5T720-760q0-17-11.5-28.5T680-800q-17 0-28.5 11.5T640-760q0 17 11.5 28.5T680-720Zm0 520ZM200-480Zm480-280Z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="projects">
+                            <div class="ptext1">Car landing page</div>
+                            <div class="ptext2"> Create a web-based platform that allows users to design and customize
+                                their own virtual pets. Features include feeding, playing, and training the pets.</div>
+                            <div class="psvg">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="M680-80q-50 0-85-35t-35-85q0-6 3-28L282-392q-16 15-37 23.5t-45 8.5q-50 0-85-35t-35-85q0-50 35-85t85-35q24 0 45 8.5t37 23.5l281-164q-2-7-2.5-13.5T560-760q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35q-24 0-45-8.5T598-672L317-508q2 7 2.5 13.5t.5 14.5q0 8-.5 14.5T317-452l281 164q16-15 37-23.5t45-8.5q50 0 85 35t35 85q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T720-200q0-17-11.5-28.5T680-240q-17 0-28.5 11.5T640-200q0 17 11.5 28.5T680-160ZM200-440q17 0 28.5-11.5T240-480q0-17-11.5-28.5T200-520q-17 0-28.5 11.5T160-480q0 17 11.5 28.5T200-440Zm480-280q17 0 28.5-11.5T720-760q0-17-11.5-28.5T680-800q-17 0-28.5 11.5T640-760q0 17 11.5 28.5T680-720Zm0 520ZM200-480Zm480-280Z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="projects">
+                            <div class="ptext1">Sign-up Form</div>
+                            <div class="ptext2"> Create a web-based platform that allows users to design and customize
+                                their own virtual pets. Features include feeding, playing, and training the pets.</div>
+                            <div class="psvg">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="M680-80q-50 0-85-35t-35-85q0-6 3-28L282-392q-16 15-37 23.5t-45 8.5q-50 0-85-35t-35-85q0-50 35-85t85-35q24 0 45 8.5t37 23.5l281-164q-2-7-2.5-13.5T560-760q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35q-24 0-45-8.5T598-672L317-508q2 7 2.5 13.5t.5 14.5q0 8-.5 14.5T317-452l281 164q16-15 37-23.5t45-8.5q50 0 85 35t35 85q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T720-200q0-17-11.5-28.5T680-240q-17 0-28.5 11.5T640-200q0 17 11.5 28.5T680-160ZM200-440q17 0 28.5-11.5T240-480q0-17-11.5-28.5T200-520q-17 0-28.5 11.5T160-480q0 17 11.5 28.5T200-440Zm480-280q17 0 28.5-11.5T720-760q0-17-11.5-28.5T680-800q-17 0-28.5 11.5T640-760q0 17 11.5 28.5T680-720Zm0 520ZM200-480Zm480-280Z" />
+                                </svg>
+
+                            </div>
+                        </div>
+                        <div class="projects">
+                            <div class="ptext1">Rock-Paper-Scissors</div>
+                            <div class="ptext2"> Create a web-based platform that allows users to design and customize
+                                their own virtual pets. Features include feeding, playing, and training the pets.</div>
+                            <div class="psvg">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="10px"
+                                    fill="#e8eaed">
+                                    <path
+                                        d="M680-80q-50 0-85-35t-35-85q0-6 3-28L282-392q-16 15-37 23.5t-45 8.5q-50 0-85-35t-35-85q0-50 35-85t85-35q24 0 45 8.5t37 23.5l281-164q-2-7-2.5-13.5T560-760q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35q-24 0-45-8.5T598-672L317-508q2 7 2.5 13.5t.5 14.5q0 8-.5 14.5T317-452l281 164q16-15 37-23.5t45-8.5q50 0 85 35t35 85q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T720-200q0-17-11.5-28.5T680-240q-17 0-28.5 11.5T640-200q0 17 11.5 28.5T680-160ZM200-440q17 0 28.5-11.5T240-480q0-17-11.5-28.5T200-520q-17 0-28.5 11.5T160-480q0 17 11.5 28.5T200-440Zm480-280q17 0 28.5-11.5T720-760q0-17-11.5-28.5T680-800q-17 0-28.5 11.5T640-760q0 17 11.5 28.5T680-720Zm0 520ZM200-480Zm480-280Z" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="right">
+                    <div id="annouc">
+                        <div class="rtext"> Announcements</div>
+                        <div id="data">
+                            <div class="part">
+
+                                <div class="announheading">Modern Web Dev</div>
+                                <div class="annountext">Stay ahead with the latest web development trends. Learn ReactJS
+                                    for building interactive wepages</div>
+
+                            </div>
+                            <hr>
+                            <div class="part">
+                                <div class="announheading">Grid and Flexbox</div>
+                                <div class="annountext">Master CSS Grid for creating complex and responsive layouts.
+                                    Discover the power of Flexbox for flexible and adaptable designs.</div>
+                            </div>
+                            <hr>
+                            <div class="part">
+                                <div class="announheading"> Building (PWAs) </div>
+                                <div class="annountext">Dive into the world of Progressive Web Apps (PWAs). Build
+                                    offline-capable applications that provide a native-like experience.</div>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                    <div id="trendin">
+                        <div class="rtext">trending</div>
+                        <div id="data2">
+                            <div class="trendbox">
+                                <img src="https://avatar.iran.liara.run/public/boy?username=Ash" width="20px">
+                                <div class="trendtext">
+                                    <div class="mail">@tushar70040</div>
+                                    <div class="pnames">Dashboard</div>
+                                </div>
+
+                            </div>
+                            <div class="trendbox">
+
+                                <img src="https://avatar.iran.liara.run/public/boy" width="20px">
+                                <div class="trendtext">
+                                    <div class="mail">@morgan</div>
+                                    <div class="pnames">cool project</div>
+                                </div>
+
+                            </div>
+                            <div class="trendbox">
+
+                                <img src="https://avatar.iran.liara.run/public/girl" width="18px">
+                                <div class="trendtext">
+                                    <div class="mail">@kendall</div>
+                                    <div class="pnames">brain app</div>
+                                </div>
+
+                            </div>
+                            <div class="trendbox">
+
+                                <img src="https://avatar.iran.liara.run/public/69" width="20px">
+                                <div class="trendtext">
+                                    <div class="mail">@jennifer</div>
+                                    <div class="pnames">vlog app</div>
+                                </div>
+
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
